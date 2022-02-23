@@ -126,7 +126,7 @@ table {
     position:  relative; left:  50px;
 }
 
-.upcomingappointments {
+.upcomingappointments, .resultstable {
     position:  relative; top:  180px; left:  30px;
     width:  95%;
     font-family: 'Open Sans', sans-serif;
@@ -137,12 +137,21 @@ table {
     text-decoration:  underline;
 }
 
-.cancelappointment {
+.cancelappointment, .forgotpassword {
     text-decoration:  underline;
 }
 
 .locationheading, .dateheading {
     font-weight:  bold;
+}
+
+.goback {
+    font-family: 'Open Sans', sans-serif;
+    position:  relative; top:  70px; left:  45px;
+}
+
+.backbuttonicon {
+    position:  relative; top:  5px; right:  5px;
 }
 
 .appointmentinformation {
@@ -159,4 +168,12 @@ table {
     position:  absolute; top:  60px; left:  550px;
     width:  400px;
     height:  400px;
+}
+
+.resultsheading {
+    position:  relative; top:  130px; left:  40px;
+}
+
+.schedappointment {
+    position: relative; top:  200px; left: 40px;
 }
