@@ -1,0 +1,116 @@
+h1 {
+    color: rgb(39, 52, 105);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+    color:  rgb(39, 52, 105);
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    text-decoration:  none;
+    color: black;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+th {
+    background-color: rgb(39, 52, 105);
+    color: white;
+}
+
+td {
+    border-bottom:  2px solid rgb(244,244,244);
+    }
+
+.navigationbar {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    width:  244px;
+    height:  38px;
+    position: fixed; top: 23px;
+    padding-left:  40px;
+}
+
+.navtabs {
+    text-align:  right;
+    position: fixed; top:  2px; right:  20px;
+    padding-right:  40px;
+    word-spacing:  15px;
+}
+
+.accounticon {
+    width:  30px;
+    height:  30px;
+    position:  relative; top:  8px; right:  10px;
+}
+
+.login {
+    text-align:  center;
+    font-family: 'Open Sans', sans-serif;
+    position:  fixed; top:  60%; left:  54%; margin-top:  -50px; margin-left: -50px;
+    transform:  translate(-50%, -50%);
+    border-radius:  25px;
+    box-shadow:  5px 5px 20px 5px rgb(244,244,244);
+    width:  550px;
+    height:  400px;
+    padding: 30px;
+    border:  1px;
+}
+
+.button {
+    background-color:rgb(39, 52, 105);
+    border-radius:  8px;
+    padding:  10px 132px;
+    color:  white;
+}
+
+.logintextfield {
+    width:  300px;
+    height:  22px;
+}
+
+.appointmentheader {
+    text-align:  center;
+    position:  relative; top:  90px;
+
+}
+
+.searchbar {
+    font-family: 'Open Sans', sans-serif;
+    position:  relative; top:  130px; left:  20px;
+    word-spacing:  2px;
+    border: 1px;
+    padding: 15px;
+    width: 95%;
+    height:  100px;
+    border-radius:  25px;
+    box-shadow:  5px 5px 20px 5px rgb(244,244,244);
+}
+
+.searchicons {
+    width:  65px;
+    height:  20px;
+    position:  relative; top:  3px;
+}
+
+.searchbutton {
+    background-color:rgb(39, 52, 105);
+    border-radius:  8px;
+    padding:  5px 30px;
+    color:  white;
+    position:  relative; left:  50px;
+}
+
+.upcomingappointments {
+    position:  relative; top:  180px; left:  30px;
+    width:  95%;
+    font-family: 'Open Sans', sans-serif;
+    text-align:  left;
+}
+
+

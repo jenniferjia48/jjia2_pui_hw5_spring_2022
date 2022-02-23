@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HealthConnect Appointment Portal</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="navigationbar">
+    <a href="file:///Users/jenniferjia/pui/jjia2_pui_hw5_spring_2022/Index.html">
+        <img class="logo" src="file:///Users/jenniferjia/pui/jjia2_pui_hw5_spring_2022/HealthConnect-Logo.png" alt="HealthConnect Logo" >
+    </a>
+    <div class="navtabs">
+        <ul>
+            <a>Appointments</a>
+            <a>View Results</a>
+            <a>FAQs</a>
+            <a>Account</a>
+            <img class="accounticon" src=file:///Users/jenniferjia/pui/jjia2_pui_hw5_spring_2022/account-icon.png >
+        </ul>
+    </div>
+</div>
+
+<div class="appointmentheader">
+    <h1>Appointments</h1>
+    <p>Schedule a COVID-19 vaccine, booster shot, or antibody test</p>
+    <form>
+        <button class="button" type=button>MAKE AN APPOINTMENT</button>
+</div>
+
+<div class="searchbar">
+    <h3>Upcoming Appointments</h3>
+        <input type="radio" id="vaccine" name="appointmenttype" value="Vaccine">
+        <label for="vaccine">Vaccine</label>
+        <input type="radio" id="test" name="appointmenttype" value="Test">
+        <label for="test">Test</label>
+        <label for="date"> <img class="searchicons" src= "file:///Users/jenniferjia/pui/jjia2_pui_hw5_spring_2022/calendar-icon.png"> Appointment Date:<label>
+            <select name="appointmentdate" id="date">
+                <option value="Jan 30 2022 - Dec 31 2022"> Jan 30 2022 - Dec 31 2022 </option>
+             </select>
+        <label for="location"><img class="searchicons" src="file:///Users/jenniferjia/pui/jjia2_pui_hw5_spring_2022/location-icon.png"> Appointment Location: </label>
+            <select name="appointmentlocation" id="location">
+                <option value="TCS Hall"> TCS Hall </option>
+                <option value="Baker Hall"> Baker Hall </option>
+            </select>
+        <button class="searchbutton" type=button> Search </button>
+</div>
+
+<table class="upcomingappointments">
+     <tr>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Appointment Type</th>
+        <th>Location</th>
+        <th>Appointment Details</th>
+    </tr>
+    <tr>
+        <td>January 30, 2022</td>
+        <td>3:45 PM EST</td>
+        <td>COVID-19 Vaccine (Moderna)</td>
+        <td>TCS Hall</td>
+        <td> View Details Cancel Appointment</td>
+    </tr>
+    <tr>
+        <td>February 10, 2022</td>
+        <td>9:00 AM EST</td>
+        <td>COVID-19 Antibody Test</td>
+        <td>TCS Hall</td>
+        <td> View Details Cancel Appointment</td>
+    </tr>
+    <tr>
+        <td>March 2, 2022</td>
+        <td>6:15 PM EST</td>
+        <td>COVID-19 Antibody Test</td>
+        <td>TCS Hall</td>
+        <td> View Details Cancel Appointment</td>
+    </tr>
+    <tr>
+        <td>March 14, 2022</td>
+        <td>1:15 PM EST</td>
+        <td>COVID-19 Antibody Test</td>
+        <td>TCS Hall</td>
+        <td> View Details Cancel Appointment</td>
+    </tr>
+    <tr>
+        <td>April 3, 2022</td>
+        <td>10:30 AM EST</td>
+        <td>COVID-19 Antibody Test</td>
+        <td>TCS Hall</td>
+        <td> View Details Cancel Appointment</td>
+    </tr>
+</table>
+
+</body>
+</html>
