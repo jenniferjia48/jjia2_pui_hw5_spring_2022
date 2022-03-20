@@ -93,6 +93,30 @@ table {
     color:  white;
 }
 
+.formbutton {
+    background-color:rgb(39, 52, 105);
+    border-radius:  8px;
+    padding:  10px 30px;
+    color:  white;
+    position:  relative; left:  640px; top: 20px;
+}
+
+.formbutton2 {
+    background-color:rgb(244, 244, 244);
+    color:  black;
+    border-radius:  8px;
+    padding:  10px 30px;
+    position:  absolute; top:  300px;
+}
+
+.formbutton3 {
+    background-color:rgb(39, 52, 105);
+    border-radius:  8px;
+    padding:  10px 30px;
+    color:  white;
+    position:  relative; top:  -196px; left:  750px;
+}
+
 .logintextfield {
     width:  300px;
     height:  22px;
@@ -101,7 +125,6 @@ table {
 .appointmentheader {
     text-align:  center;
     position:  relative; top:  90px;
-
 }
 
 .searchbar {
@@ -145,8 +168,41 @@ table {
     text-decoration:  underline;
 }
 
-.locationheading, .dateheading {
+.locationheading, .dateheading,.appointmentformheader {
     font-weight:  bold;
+}
+
+.appointmentformheader2 {
+    font-weight:  bold;
+    position:  relative; top: 30px;
+}
+
+.vaccinelocation {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    line-height:  80%;
+    position:  relative; top: -10px; left: 0px;
+    border: 1px;
+    width: 40%;
+    height:  200px;
+    padding-top: 10px;
+    padding-left: 30px;
+    border-radius:  25px;
+    box-shadow:  5px 5px 20px 5px rgb(244,244,244);
+}
+
+.vaccinelocation2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    line-height:  80%;
+    position:  relative; bottom:  220px; left: 500px;
+    border: 1px;
+    width: 40%;
+    height:  200px;
+    padding-top: 10px;
+    padding-left: 30px;
+    border-radius:  25px;
+    box-shadow:  5px 5px 20px 5px rgb(244,244,244);
 }
 
 .goback {
@@ -159,6 +215,7 @@ table {
 }
 
 .appointmentinformation {
+    font-family: 'Open Sans', sans-serif;
     position:  relative; top:  140px; left:  120px;
     border: 1px;
     padding: 60px;
@@ -181,3 +238,36 @@ table {
 .schedappointment {
     position: relative; top:  200px; left: 40px;
 }
+
+.appointmentformpageheader {
+    text-align:  center;
+    position:  relative; top:  90px;
+}
+
+.progressbar {
+    width: 407px;
+    height:  51px;
+}
+
+.appointmentforminformation {
+    font-family: 'Open Sans', sans-serif;
+    position:  relative; top:  100px; left:  140px;
+    border: 1px;
+    padding:  5px 50px;
+    width: 70%;
+    height:  380px;
+    border-radius:  25px;
+    box-shadow:  5px 5px 20px 5px rgb(244,244,244);
+}
+
+.appointmentforminformation2 {
+    font-family: 'Open Sans', sans-serif;
+    position:  relative; top:  100px; left:  140px;
+    border: 1px;
+    padding:  5px 50px;
+    width: 70%;
+    height:  380px;
+    border-radius:  25px;
+    box-shadow:  5px 5px 20px 5px rgb(244,244,244);
+}
+
